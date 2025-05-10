@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_KEY = "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";
-const ORG_ID = "org-62IhtDbGbFgvMGflmhrnJSEG";
+const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;const ORG_ID = "org-62IhtDbGbFgvMGflmhrnJSEG";
 const PROJECT_ID = "proj_HWuNpIqkxaALXYgzdejTVIFs";
 const ASSISTANT_ID = "asst_T34faD70SYGlP1077OzqJnMd";
 
