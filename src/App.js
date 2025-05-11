@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;const ORG_ID = "org-62IhtDbGbFgvMGflmhrnJSEG";
-const PROJECT_ID = "proj_HWuNpIqkxaALXYgzdejTVIFs";
-const ASSISTANT_ID = "asst_T34faD70SYGlP1077OzqJnMd";
+const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
+const ORG_ID = process.env.REACT_APP_OPENAI_ORG_KEY;
+const PROJECT_ID = process.env.REACT_APP_OPENAI_PROJECT_KEY;
+const ASSISTANT_ID = process.env.REACT_APP_OPENAI_ASSISTANT_KEY;
 
 function App() {
   const [messages, setMessages] = useState([
